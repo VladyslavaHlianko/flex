@@ -64,9 +64,10 @@ body{
 .container{
     display: flex;
     flex-flow: row wrap;
-    width: 1300px;
+    width: 1320px;
     justify-content: space-between;
     margin: 30px auto;
+    padding: 0 10px;
 }
 .logo{
     color: #FFFFFF;
@@ -93,9 +94,8 @@ a{
 }
 .content{
     margin: 0 auto;
-    width: 1300px;
-    padding-top: 155px;
-    padding-bottom: 180px;
+    width: 1320px;
+    padding: 155px 10px 180px;
 }
 .box{
     width: 540px;
@@ -118,9 +118,8 @@ button{
 }
 .about_content{
     margin: 0 auto;
-    width: 1300px;
-    padding-top: 85px;
-    padding-bottom: 85px;
+    width: 1320px;
+    padding: 85px 10px;
     text-align: center;
 }
 .about_box{
@@ -159,10 +158,9 @@ h3+p{
     justify-content: space-between;
     display: flex;
     flex-flow: row wrap;
-    width: 1300px;
+    width: 1320px;
     margin: 0 auto;
-    padding-bottom: 80px;
-    padding-top: 85px;
+    padding: 85px 10px 80px;
 }
 .flex_box>div{
     display: flex;
@@ -179,10 +177,10 @@ h3+p{
     background: rgba(0, 207, 250, 0.05);
 }
 .work_box{
-    width: 1300px;
+    width: 1320px;
     margin: 0 auto;
     text-align: center;
-    padding-bottom: 70px;
+    padding: 0 10px 70px;
 }
 .work_content{
     width: 540px;
